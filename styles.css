@@ -68,7 +68,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   box-shadow: 8px 8px 4px grey;
-  background-color: rgb(213, 213, 184);
 }
 .whatsapp {
   font-size: 12px;
