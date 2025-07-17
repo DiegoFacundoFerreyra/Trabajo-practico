@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link-lisas {
+  font-size: 20px;
+  color: #063212;
+  margin: 8px;
+}
+
+.link-estampadas {
+  font-size: 20px;
+  color: #02ad16;
+  margin: 8px;
+}
+
+.link-musculosas {
+  font-size: 20px;
+  color: #078d43;
+  margin: 8px;
+}
+
+.link-accesorios {
+  font-size: 20px;
+  color: steelblue;
+  margin: 8px;
+}
+
+.inicio {
+  font-size: 12px;
+  color: rgb(181, 7, 7);
+  margin: 8px;
+}
+
+.musculosas {
+  color: rgb(219, 64, 8);
+}
+
+.estampadas {
+  color: rgb(108, 4, 4);
+}
+
+.lisas {
+  color: rgb(168, 52, 7);
+}
+
+.trabajo {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin: 8px;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(197, 2, 2, 0.8156862745);
+}
+
+.instagram {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin: 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(237, 98, 179);
+}
+
+.mail {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin: 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: whitesmoke;
+}
+
+button {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 8px 8px 4px grey;
+}
+
+.whatsapp {
+  font-size: 12px;
+  margin: 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(26, 186, 9);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.caja {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px;
+  justify-content: space-evenly;
+  margin: 20px;
+  align-items: center;
+  background-color: rgb(212, 212, 210);
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 50px;
+  color: #24bdeb;
+  font-family: "Arial black", sans-serif;
+  background-color: #2402b7;
+  text-align: center;
+}
+
+.div-caja {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  min-height: 100px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 6px 6px 4px grey;
+  background-color: rgb(212, 212, 210);
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border: solid 2px goldenrod;
+}
+
+.presentacion {
+  color: rgb(78, 8, 229);
+  line-height: 2;
+  font-weight: bold;
+  font-family: "cursive", "Lucida Handwriting", "Lucida Cursive";
+  font-size: 16px;
+}
+
+.contacto {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100px;
+  font-size: 12px;
+  margin: 8px;
+  background-color: rgb(57, 57, 57);
+  color: wheat;
+  border-top: #24bdeb solid 4px;
+  border-radius: 40px;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 12px;
+  background-color: rgb(213, 213, 184);
+  font-size: 30px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  margin: 12px;
+}
+
+.coleccion {
+  color: black;
+  text-shadow: 6px 6px 4px grey;
+  font-size: 24px;
+  font-style: oblique;
+}
+
+.instrucciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgb(247, 3, 3);
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.solicitud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: rgb(142, 3, 3);
+  text-shadow: 2px 2px 2px #bdbd01;
+  font-size: 28px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 80%;
+  min-height: 80%;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 60px;
+  padding: 20px;
+  margin: 20px;
+  border-style: dashed;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-shadow: 4px 4px 2px grey;
+}
+
+li {
+  list-style: none;
+}
+
+label {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 20px;
+}
+
+input {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.input-principales:focus {
+  border: 2px solid #25ba04;
+  outline: none;
+}
+
+.file-input:hover {
+  border: 2px solid #25ba04;
+}
+
+.submit-input:active {
+  background-color: #25ba04;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.principal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #1303a2;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+textarea {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 280px;
+  height: 80px;
+}
+
+input {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 12px;
+}
+
+.conocenos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: steelblue;
+}
+
+.pagina1 {
+  display: grid;
+  background-color: steelblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  place-self: center;
+}
+
+@media (min-width: 768px) {
+  header {
+    font-size: 50px;
+  }
+  .trabajo {
+    font-size: 16px;
+  }
+  .instagram {
+    font-size: 16px;
+  }
+  .mail {
+    font-size: 16px;
+  }
+  .whatsapp {
+    font-size: 16px;
+  }
+  .contacto {
+    font-size: 16px;
+  }
+  .presentacion {
+    font-size: 16px;
+  }
+  .solicitud {
+    font-size: 32px;
+  }
+  textarea {
+    width: 360px;
+    height: 120px;
+  }
+  input {
+    font-size: 16px;
+  }
+  nav {
+    flex-direction: row;
+  }
+  .pagina1 {
+    font-size: 20px;
+  }
+  .inicio {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    font-size: 60px;
+  }
+  .trabajo {
+    font-size: 20px;
+  }
+  .instagram {
+    font-size: 20px;
+  }
+  .mail {
+    font-size: 20px;
+  }
+  .whatsapp {
+    font-size: 20px;
+  }
+  .contacto {
+    font-size: 20px;
+  }
+  .presentacion {
+    font-size: 20px;
+  }
+  .solicitud {
+    font-size: 40px;
+  }
+  .pagina1 {
+    font-size: 24px;
+  }
+  .inicio {
+    font-size: 20px;
+  }
+  textarea {
+    width: 420px;
+    height: 180px;
+  }
+  input {
+    font-size: 24px;
+  }
+  nav {
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
