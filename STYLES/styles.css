@@ -3,37 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .link-lisas {
   font-size: 20px;
   color: #063212;
   margin: 8px;
 }
+
 .link-estampadas {
   font-size: 20px;
   color: #02ad16;
   margin: 8px;
 }
+
 .link-musculosas {
   font-size: 20px;
   color: #078d43;
   margin: 8px;
 }
+
 .link-accesorios {
   font-size: 20px;
   color: steelblue;
   margin: 8px;
 }
+
 .inicio {
   font-size: 12px;
   color: rgb(181, 7, 7);
   margin: 8px;
 }
+
 .musculosas {
   color: rgb(219, 64, 8);
 }
+
 .estampadas {
   color: rgb(108, 4, 4);
 }
+
 .lisas {
   color: rgb(168, 52, 7);
 }
@@ -44,8 +52,18 @@
   font-size: 12px;
   margin: 8px;
   font-family: "Courier New", Courier, monospace;
-  color: #c50202d0;
+  color: rgba(197, 2, 2, 0.8156862745);
 }
+
+.trabajo:hover {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 28px;
+  margin: 8px;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(197, 2, 2, 0.8156862745);
+}
+
 .instagram {
   display: flex;
   flex-wrap: wrap;
@@ -54,10 +72,29 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(237, 98, 179);
 }
+
+.instagram:hover {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 28px;
+  margin: 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(237, 98, 179);
+}
+
 .mail {
   display: flex;
   flex-wrap: wrap;
   font-size: 12px;
+  margin: 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: whitesmoke;
+}
+
+.mail:hover {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 28px;
   margin: 8px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: whitesmoke;
@@ -69,6 +106,7 @@ button {
   flex-wrap: wrap;
   box-shadow: 8px 8px 4px grey;
 }
+
 .whatsapp {
   font-size: 12px;
   margin: 8px;
@@ -97,7 +135,20 @@ button {
 .imagen {
   width: 200px;
   height: 300px;
+  cursor: pointer;
 }
+
+.imagen:hover {
+  width: 200px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.img {
+  width: 200px;
+  height: 300px;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -117,6 +168,21 @@ header {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  transition: 0.4s;
+  box-shadow: 6px 6px 4px grey;
+  background-color: rgb(212, 212, 210);
+}
+
+.div-caja:hover {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  min-height: 100px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(1.2);
+  transition: 0.4s;
   box-shadow: 6px 6px 4px grey;
   background-color: rgb(212, 212, 210);
 }
@@ -180,6 +246,7 @@ nav {
   font-size: 24px;
   font-style: oblique;
 }
+
 .instrucciones {
   display: flex;
   flex-wrap: wrap;
@@ -216,16 +283,20 @@ nav {
   margin: 20px;
   border-style: dashed;
 }
+
 h1 {
   font-size: 50px;
   margin: 20px;
 }
+
 a {
   text-decoration: none;
 }
+
 h3 {
   font-size: 60px;
 }
+
 h2 {
   display: flex;
   flex-wrap: wrap;
@@ -234,9 +305,11 @@ h2 {
   font-size: 30px;
   text-shadow: 4px 4px 2px grey;
 }
+
 li {
   list-style: none;
 }
+
 label {
   display: flex;
   flex-wrap: wrap;
@@ -244,6 +317,7 @@ label {
   margin: 10px;
   font-size: 20px;
 }
+
 input {
   display: flex;
   flex-wrap: wrap;
@@ -251,19 +325,25 @@ input {
   margin: 10px;
   font-size: 20px;
 }
+
 .input-principales:focus {
   border: 2px solid #25ba04;
   outline: none;
 }
+
 .file-input:hover {
   border: 2px solid #25ba04;
+  cursor: pointer;
 }
+
 .submit-input:active {
   background-color: #25ba04;
   color: white;
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
+
 .principal {
   display: flex;
   flex-wrap: wrap;
@@ -283,6 +363,7 @@ footer {
   flex-direction: column;
   margin-bottom: 20px;
 }
+
 textarea {
   display: flex;
   flex-wrap: wrap;
@@ -303,12 +384,39 @@ input {
   grid-template-columns: repeat(3, 1fr);
   background-color: steelblue;
 }
+
 .pagina1 {
   display: grid;
   background-color: steelblue;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
   place-self: center;
+}
+
+.div-sass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: aliceblue;
+  border: solid 2px;
+  border-color: #24bdeb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 4px;
+  margin: 4px;
+  text-align: center;
+  border-radius: 50px;
+}
+.div-sass:hover {
+  font-size: x-large;
+}
+
+.parrafo-sass {
+  color: goldenrod;
+}
+
+.nosotros {
+  color: #1303a2;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -340,7 +448,6 @@ input {
   .solicitud {
     font-size: 32px;
   }
-
   textarea {
     width: 360px;
     height: 120px;
@@ -358,7 +465,6 @@ input {
     font-size: 16px;
   }
 }
-
 @media (min-width: 1024px) {
   header {
     font-size: 60px;
@@ -390,7 +496,6 @@ input {
   .inicio {
     font-size: 20px;
   }
-
   textarea {
     width: 420px;
     height: 180px;
@@ -402,3 +507,5 @@ input {
     flex-direction: row;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
